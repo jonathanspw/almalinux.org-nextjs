@@ -1,9 +1,16 @@
 import Head from 'next/head';
 import HeaderComponent from "../components/common/header";
 import FooterComponent from "../components/common/footer";
+import { useRouter } from "next/router";
+import { FormattedMessage, useIntl } from "react-intl";
+
 import '../styles/Main.module.scss';
 
 export default function Home() {
+
+  const { locales } = useRouter();
+  const intl = useIntl();
+
   return (
 <div>
 <HeaderComponent></HeaderComponent>
@@ -20,6 +27,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-6">
                     <h1 className="display-5 fw-bold lh-1 mb-5 mb-md-3">
+                        <FormattedMessage id="hello world" />
                         Free Linux OS for the community, by the community
                     </h1>
                     <p className="lead mb-5 mb-md-3">
