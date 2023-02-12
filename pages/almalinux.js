@@ -27,24 +27,23 @@ export default function Home() {
                 </div>
                 <div className="col-lg-6">
                     <h1 className="display-5 fw-bold lh-1 mb-5 mb-md-3">
-                        <FormattedMessage id="hello world" />
-                        Free Linux OS for the community, by the community
+                        <FormattedMessage id="Free Linux OS for the community, by the community"/>
                     </h1>
                     <p className="lead mb-5 mb-md-3">
-                        An Open Source, community owned and governed, forever-free enterprise Linux distribution, focused on long-term stability, providing a robust production-grade platform. AlmaLinux OS is 1:1 binary compatible with RHEL® and pre-Stream CentOS.
+                        <FormattedMessage id="An Open Source, community owned and governed, forever-free enterprise Linux distribution, focused on long-term stability, providing a robust production-grade platform. AlmaLinux OS is 1:1 binary compatible with RHEL® and pre-Stream CentOS."/>
                     </p>
                     <div className="d-grid gap-3 d-md-flex justify-content-md-start pt-3">
                         <a href="/contribute/" className="btn btn-lg px-xl-4 px-lg-2   me-md-2 al-hero-cta-primary">
                             <i className="bi bi-people pe-1"></i>
-                            Contribute
+                            <FormattedMessage id="Contribute"/>
                         </a>
                         <a href="https://mirrors.almalinux.org/isos.html" className="btn btn-lg px-xl-4 px-lg-2 al-hero-cta-secondary">
                             <i className="bi bi-download pe-1"></i>
-                            Download
+                            <FormattedMessage id="Download"/>
                         </a>
                         <a href="https://github.com/AlmaLinux/almalinux-deploy" className="btn btn-lg px-xl-4 px-lg-2   al-hero-cta-tertiary">
                             <img src="/images/icon-migrate.svg" alt="Icon" className="pe-1" />
-                            Migrate
+                            <FormattedMessage id="Migrate"/>
                         </a>
                     </div>
                 </div>
@@ -59,11 +58,11 @@ export default function Home() {
                         <div className="al-index-community-content-wrap">
                             <h4 className="fw-bold mb-0 pb-2">GitHub</h4>
                             <p>
-                                Our GitHub organization contains source code and tools used to build AlmaLinux OS and related infrastructure.
+                                <FormattedMessage id="Our GitHub organization contains source code and tools used to build AlmaLinux OS and related infrastructure."/>
                             </p>
                             <div className="pt-1" >
                                 <a href="https://github.com/AlmaLinux/" className="btn btn-primary al-community-cta">
-                                    Explore
+                                    <FormattedMessage id="Explore"/>
                                 </a>
                             </div>
                         </div>
@@ -73,11 +72,11 @@ export default function Home() {
                         <div className="al-index-community-content-wrap">
                             <h4 className="fw-bold mb-0 pb-2">Reddit</h4>
                             <p>
-                                Join our vibrant Reddit community, interact with other AlmaLinux OS users, receive updates, find and provide help.
+                                <FormattedMessage id="Join our vibrant Reddit community, interact with other AlmaLinux OS users, receive updates, find and provide help."/>
                             </p>
                             <div className="pt-1" >
                                 <a href="https://www.reddit.com/r/almalinux" className="btn btn-primary al-community-cta reddit">
-                                    Join
+                                    <FormattedMessage id="Join"/>
                                 </a>
                             </div>
                         </div>
@@ -86,14 +85,14 @@ export default function Home() {
                         <i className="bi bi-chat-dots al-index-community-icon"></i>
                         <div className="al-index-community-content-wrap">
                             <h4 className="fw-bold mb-0 pb-2">
-                                Community chat
+                                <FormattedMessage id="Community chat"/>
                             </h4>
                             <p>
-                                Join a real time discussion with other AlmaLinux OS community members, governance team and AlmaLinux OS developers.
+                                <FormattedMessage id="Join a real time discussion with other AlmaLinux OS community members, governance team and AlmaLinux OS developers."/>
                             </p>
                             <div className="pt-1" >
                                 <a href="https://chat.almalinux.org" className="btn btn-primary al-community-cta">
-                                    Engage
+                                    <FormattedMessage id="Engage"/>
                                 </a>
                             </div>
                         </div>
@@ -103,11 +102,11 @@ export default function Home() {
                         <div className="al-index-community-content-wrap">
                             <h4 className="fw-bold mb-0 pb-2">Community forums</h4>
                             <p>
-                                Ask questions, get answers and contribute community support to others in AlmaLinux OS community and developers alike.
+                                <FormattedMessage id="Ask questions, get answers and contribute community support to others in AlmaLinux OS community and developers alike."/>
                             </p>
                             <div className="pt-1">
                                 <a href="https://almalinux.discourse.group" className="btn btn-primary al-community-cta">
-                                    Discover
+                                    <FormattedMessage id="Discover"/>
                                 </a>
                             </div>
                         </div>
@@ -122,13 +121,13 @@ export default function Home() {
                     <div className="col-12 col-md-12">
                         <h2 className="pb-3">About AlmaLinux OS</h2>
                         <p>
-                            AlmaLinux OS is an open-source, community-driven Linux operating system that fills the gap left by the discontinuation of the CentOS Linux stable release. AlmaLinux OS is a 1:1 binary compatible clone of RHEL® guided and built by the community.
+                            <FormattedMessage id="AlmaLinux OS is an open-source, community-driven Linux operating system that fills the gap left by the discontinuation of the CentOS Linux stable release. AlmaLinux OS is a 1:1 binary compatible clone of RHEL® guided and built by the community."/>
                         </p>
                         <p>
-                            As a standalone, completely free OS, AlmaLinux OS enjoys $1M in annual sponsorship from CloudLinux Inc and support from other sponsors. Ongoing development efforts are governed by the members of the community.
+                            <FormattedMessage id="As a standalone, completely free OS, AlmaLinux OS enjoys $1M in annual sponsorship from CloudLinux Inc and support from other sponsors. Ongoing development efforts are governed by the members of the community."/>
                         </p>
                         <p>
-                            The AlmaLinux OS Foundation is a 501(c)(6) non-profit created for the benefit of the AlmaLinux OS community.
+                            <FormattedMessage id="The AlmaLinux OS Foundation is a 501(c)(6) non-profit created for the benefit of the AlmaLinux OS community."/>
                         </p>
                     </div>
                 </div>
